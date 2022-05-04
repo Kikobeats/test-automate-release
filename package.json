@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kikobeats/test-automate-release.git"
+    "url": "git+ssh://git@github.com/Kikobeats/test-automate-release.git"
   },
   "bugs": {
     "url": "https://github.com/Kikobeats/test-automate-release/issues"

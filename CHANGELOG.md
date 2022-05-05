@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.1.0 (2022-05-05)
+
+
+### Features
+
+* ensure it works ([6f053a7](https://github.com/Kikobeats/test-automate-release/commit/6f053a7f4c6554313dde9d3f85797ded8495a6b8))
+
 ## [1.0.0](https://github.com/Kikobeats/test-automate-release/compare/v0.0.8...v1.0.0) (2022-05-05)
 
 ### 0.0.8 (2022-05-05)

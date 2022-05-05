@@ -24,10 +24,4 @@ jobs:
         run: npm test
       - name: Release
         if: ${{ github.ref == 'refs/heads/master' && !startsWith(github.event.head_commit.message, 'chore(release):') && !startsWith(github.event.head_commit.message, 'docs:') }}
-        shell: 'script -q -e -c "bash {0}"'
-        env:
-          CONVENTIONAL_GITHUB_RELEASER_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config --global user.email ${{ secrets.GIT_EMAIL }}
-          git config --global user.name ${{ secrets.GIT_USERNAME }}
-          npm run release
+        run: git config --global user.email ${{ secrets.GIT_EMAIL }} && git config --global user.name ${{ secrets.GIT_USERNAME }} && npm run release
